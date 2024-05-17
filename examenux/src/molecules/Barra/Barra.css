@@ -2,8 +2,9 @@
 .container-fluid {
     display: flex;
     justify-content: flex-start;
-    text-align: left; 
+    text-align: left;
 }
+
 p{
     font-size: 15px;
     color: white;
@@ -16,6 +17,8 @@ p{
 
 .sidebar {
     width: 200px; 
+    min-height: 100vh;
+    background-color:rgb(35, 32, 32);
 }
 
 .nav-item {
@@ -52,7 +55,8 @@ p{
 }
 
 hr.custom-hr {
-    border-top: 1px solid rgb(255, 255, 255); /* Cambia 'red' al color que desees */
+    border-top: 1px solid rgb(255, 255, 255); 
 }
+
 
 

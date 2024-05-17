@@ -1,11 +1,12 @@
 import './App.css';
-import Barra from './molecules/Barra/Barra';
+import './organismos/Barras/Barras'
+import Barras from './organismos/Barras/Barras';
 
 function App() {
   return (
     <div className="App">
       <div class="background-barra">
-        <Barra />
+        <Barras></Barras>
       </div>
 
     </div>
