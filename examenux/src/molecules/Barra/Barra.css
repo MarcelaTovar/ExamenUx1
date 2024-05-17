@@ -1,25 +1,49 @@
 
-.nav-item .btn-link:hover {
-    background-color: grey;
-    color: white; 
+.container-fluid {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left; 
+}
+p{
+    font-size: 15px;
+    color: white;
+}
+.container-fluid {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    width: 200px; 
+}
+
+.nav-item {
+    margin-bottom: 0; 
 }
 
 .nav-item .btn-link {
     background-color: transparent;
     border: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+.nav-item .btn-link:hover {
+    background-color: grey;
+    color: white;
+}
+
+.img-icon {
+    max-width: 20px;
+    max-height: auto;
+    margin-right: 0px;
 }
 
 .button-text {
-    color: white; 
-    font-size: 15px; 
-    margin-left: 2px; 
-    text-align: left;
-}
-.container-fluid{
-    align-items:flex-start;
-}
-p{
-    font-size: 15px;
     color: white;
+    font-size: 15px;
+    text-align: left;
+    margin: 0; 
 }

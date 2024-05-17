@@ -14,7 +14,7 @@ const Barra = () => {
             <div class="row flex-nowrap">
 
                 {/**Aqui ajustamos el tamaño de la nav bar */}
-                <div class="bg-dark col-auto col-md-1.5 col-lg-1.5 min-vh-100 d-flex flex-column justify-content-between sidebar">
+                <div class="bg-dark col-auto col-md-1.5 col-lg-1.5 min-vh-100 d-flex flex-column align-items-start sidebar">
 
                     <div class="bg-dark p-2">
                         <a class="d-flex text-decoration-none mt-1 align-items-center text-white">
