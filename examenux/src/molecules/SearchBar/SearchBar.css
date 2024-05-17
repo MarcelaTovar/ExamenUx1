@@ -1,9 +1,41 @@
 .searchButton{
     background-color: grey;
     border-radius: 10px;
-    padding:2px;
     border:none;
+    margin-left: 0px;
 }
 .searchButton:hover {
     background-color: white; 
 }
+.searchContainer {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  .searchContainer .form-control {
+    border-radius: 20px; 
+    margin-right: 0px;
+    background-color: black; 
+    color: white;
+    flex: 1;
+  }
+  
+  .searchContainer .searchButton {
+    margin-left: 0px; 
+  }
+  .searchNavbar {
+    background-color: black; 
+  margin: 0 auto;
+  }
+
+  .custom-placeholder::placeholder {
+    color: white; 
+  }
+
+  .custom-input {
+    width: 100%; 
+  }
+ 
+
+ 

@@ -4,20 +4,21 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Barras.css'
 
 
 //Aqui organizaremos las barras
-const Barras = () =>{
-    return(
-        <Row>
-          <Col md="3">
-            <Barra />
-          </Col>
-          <Col md="9">
-            <SearchBar />
-          </Col>
-        </Row>
-    );
+const Barras = () => {
+  return (
+    <Row className="barras-container">
+      <Col md="3">
+        <Barra />
+      </Col>
+      <Col md="9">
+        <SearchBar/>
+      </Col>
+    </Row>
+  );
 }
 
 export default Barras;
