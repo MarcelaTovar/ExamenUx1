@@ -5,13 +5,25 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-//Estamos usando una clase de Bootstrap-React
-
 const IconBL = ({ link, titulo }) => { 
-    const estilo = {
-        maxWidth: '13px',
+    // Estilos para las imágenes
+    const estiloProbable = {
+        maxWidth: '14.5px',
         height: 'auto',
     };
+
+    const estiloProbable2 = {
+        maxWidth: '60px',
+        height: 'auto',
+    };
+
+    let estilo = null;
+
+    if (titulo === "") {
+        estilo = estiloProbable2;
+    } else {
+        estilo = estiloProbable;
+    }
 
     return (
         <Container fluid>
@@ -20,7 +32,7 @@ const IconBL = ({ link, titulo }) => {
                     <Image src={link} rounded style={estilo} className="img-fluid img-icon" />
                 </Col>
                 <Col>
-                    <span className="button-text">{titulo}</span> 
+                    <span className="button-text">{titulo}</span>
                 </Col>
             </Row>
         </Container>
@@ -28,4 +40,5 @@ const IconBL = ({ link, titulo }) => {
 }
 
 export default IconBL;
+
 
