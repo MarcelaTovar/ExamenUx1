@@ -1,7 +1,25 @@
 
-.nav-pills li a:hover{
-    background-color: blue;
+.nav-item .btn-link:hover {
+    background-color: grey;
+    color: white; 
 }
-h2{
-    color: blueviolet;
+
+.nav-item .btn-link {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.button-text {
+    color: white; 
+    font-size: 15px; 
+    margin-left: 2px; 
+    text-align: left;
+}
+.container-fluid{
+    align-items:flex-start;
+}
+p{
+    font-size: 15px;
+    color: white;
 }

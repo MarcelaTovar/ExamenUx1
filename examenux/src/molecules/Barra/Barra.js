@@ -1,93 +1,145 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Barra.css';
-import Nav from 'react-bootstrap/Nav';
-import { Button } from 'bootstrap';
+import IconBL from '../../atoms/IconsBL/IconBL';
 
-function Barra() {
+const Barra = () => {
     return (
-        /*<Navbar expand="lg" className="bg-body-tertiary">
-          <Container>
-            <Navbar.Brand href="#">
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1024px-YouTube_Logo_2017.svg.png"
-                width="30"
-                height="30"
-                className="d-inline-block align-top"
-                alt="Logo"
-              />
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="flex-column sidebar">
-                <div className="navbar-item">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                </div>
-                <div className="navbar-item">
-                  <Nav.Link href="#link">Link</Nav.Link>
-                </div>
-                <div className="navbar-item">
-                  <Nav.Link href="#about">About</Nav.Link>
-                </div>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>*/
-
+        /** Tenemos principalmente los contenedores.
+         * La línea 14 nos ayuda a ajustar las dimensiones del nav bar
+         * Dentro de cada span es donde inlcuimos los iconos
+         * Creamos una lista ul, cada elemento dentro de la lista es un il
+         */
         <div class="container-fluid">
             <div class="row flex-nowrap">
-                <div class="bg-dark col-auto col-md-4 col-lg-3 min-vh-100 d-flex flex-column justify-content-between">
+
+                {/**Aqui ajustamos el tamaño de la nav bar */}
+                <div class="bg-dark col-auto col-md-1.5 col-lg-1.5 min-vh-100 d-flex flex-column justify-content-between sidebar">
+
                     <div class="bg-dark p-2">
                         <a class="d-flex text-decoration-none mt-1 align-items-center text-white">
-                            <span class="fs-4 d-none d-sm-inline">Sidemenu</span>
+                            <span class="fs-4 d-none d-sm-inline">
+                                Youtube
+                            </span>
                         </a>
+
+                        {/**Cada uno de estos es un elemento de la barra */}
                         <ul class="nav nav-pills flex-column mt-4">
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-gauge"></i><span class="fs-4 ms-1 d-none d-sm-inline">Dashboard</span>
-                                </a>
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://www.unhcr.org/spotlight/wp-content/uploads/sites/55/2021/05/Icon-test-House-white.png" titulo="Principal"/>
+                                </button>
                             </li>
-                            <li class="nav-item py-2 py-sm-0">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-house"></i><span class="fs-4 ms-1 d-none d-sm-inline">Home</span>
-                                </a>
+
+
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://i.pinimg.com/originals/17/d2/18/17d21878c22fe49e7e4752eecaa36541.png" titulo="Shorts"/>
+                                </button>
                             </li>
-                            <li class="nav-item py-2 py-sm-0">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-table-list"></i><span class="fs-4 ms-1 d-none d-sm-inline">Articles</span>
-                                </a>
+
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgoL5gHlcuaNv6Q0x1bAcRk3IpSQcxtKHMgo-92ov1Tg&s" titulo="Suscribciones"/>
+                                </button>
                             </li>
-                            <li class="nav-item py-2 py-sm-0">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-grid2"></i><span class="fs-4 ms-1 d-none d-sm-inline">Products</span>
-                                </a>
+
+                            <p>Tú &gt; </p>
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://static.vecteezy.com/system/resources/previews/004/274/186/original/person-icon-user-interface-icon-silhouette-of-man-simple-symbol-a-glyph-symbol-in-your-web-site-design-logo-app-ui-webinar-video-chat-ect-vector.jpg" titulo="Suscribciones"/>
+                                </button>
                             </li>
-                            <li class="nav-item py-2 py-sm-0">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-clipboard"></i><span class="fs-4 ms-1 d-none d-sm-inline">Orders</span>
-                                </a>
+
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://www.shutterstock.com/image-vector/clock-icon-trendy-flat-style-600nw-674379841.jpg" titulo="Historial"/>
+                                </button>
                             </li>
-                            <li class="nav-item py-2 py-sm-0">
-                                <a href="#" class="nav-link text-white">
-                                    <i class="fs-5 fa fa-users"></i><span class="fs-4 ms-1 d-none d-sm-inline">Customers</span>
-                                </a>
+
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLGgHYdiuTSMsp42bmlDxdeS4TRy17-DmcGrMJ3qgUg&s" titulo="Playlist"/>
+                                </button>
                             </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://cdn.logojoy.com/wp-content/uploads/20200406092725/youtube-icon.png" titulo="Your Video"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://www.shutterstock.com/image-vector/clock-icon-trendy-flat-style-600nw-674379841.jpg" titulo="Ver mas tarde"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://www.freeiconspng.com/thumbs/youtube-like-png/youtube-like-png-9.jpg" titulo="Videos que me gustan"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://png.pngtree.com/png-vector/20190419/ourmid/pngtree-vector-scissor-icon-png-image_959994.jpg" titulo="Mis Clips"/>
+                                </button>
+                            </li>
+
+                            <p>Suscribciones</p>
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_nhjfsQXViLvnCoADKDh3FCEmQgWNxOB19HhOCRjmyCfoI=s900-c-k-c0x00ffffff-no-rj" titulo="8cho"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://yt3.googleusercontent.com/itg6InC3mG_vz82zABL--M82TUZWN8tM2Nj5wNnzIxb3nB54PW5yXPCHf5f4aSNT4XZEAtr2=s900-c-k-c0x00ffffff-no-rj" titulo="Adrian Sáenz"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://yt3.googleusercontent.com/0s0wKMOurM0CQnE0x0vvKvyKc9Vg6KyekVZn926aQ5tEEg1iTRq0PHzYq1fZ8Z-c4os2rRZlBA=s900-c-k-c0x00ffffff-no-rj" titulo="Alec Hernández"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_mRqEMEC65LgbC9gBrpFu1tw7XTDJlhdc5JFTFTfZPkYlc=s900-c-k-c0x00ffffff-no-rj" titulo="Alex Meyers en Español"/>
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline">
+                                    {/**Esta es la clase de los iconos */}
+                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIf8zZQocz98BdobiH6EeSlv0t9EzUf_BtWkKJnpuI1eSw=s900-c-k-c0x00ffffff-no-rj" titulo="Angela Yelin"/>
+                                </button>
+                            </li>
+
                         </ul>
                     </div>
-                    <div class="dropdown open p-3">
-                        <button class="btn border-none dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-user"></i><span class="ms-2">xd</span>
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <a class="dropdown-item" href="#">Setting</a>
-                            <a class="dropdown-item" href="#">Profile</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <h2> Content Area</h2>
+                    
                 </div>
             </div>
         </div>
