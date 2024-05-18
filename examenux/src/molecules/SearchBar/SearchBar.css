@@ -1,41 +1,59 @@
-.searchButton{
-    background-color: grey;
-    border-radius: 10px;
-    border:none;
-    margin-left: 0px;
+.btn-outline-secondary {
+    background-color: rgb(124, 113, 113);
+    border-left: none;
+    margin-top: 11px;
+    margin-right: 20px;
+    padding-left: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
-.searchButton:hover {
-    background-color: white; 
+
+.lupa {
+    max-width: 20px;
+    max-height: auto;
 }
-.searchContainer {
-    display: flex;
-    align-items: center;
-    width: auto;
-  }
-  
-  .searchContainer .form-control {
-    border-radius: 20px; 
-    margin-right: 0px;
-    background-color: black; 
+
+.btn-outline-secondary:hover {
+    background-color: white;
+}
+
+.input-group .form-control {
+    background-color: black;
     color: white;
-    flex: 1;
-  }
-  
-  .searchContainer .searchButton {
-    margin-left: 0px; 
-  }
-  .searchNavbar {
-    background-color: black; 
-  margin: 0 auto;
-  }
+    margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
 
-  .custom-placeholder::placeholder {
-    color: white; 
-  }
-
-  .custom-input {
-    width: 100%; 
-  }
- 
-
- 
+.custom-placeholder::placeholder {
+    color: grey;
+}
+.microfono{
+    max-width: 40px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: grey;
+}
+.camera{
+    max-width: 40px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 200px;
+}
+.campana{
+    max-width: 40px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.selfie{
+    max-width:40px;
+    max-height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(0, 0, 0);
+}
