@@ -1,7 +1,7 @@
 import './App.css';
 import './organismos/Barras/Barras'
 import Barras from './organismos/Barras/Barras';
-import BarraBotones from './molecules/BarraBotones/BarraBotones';
+
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
                     <div className="navSearchBar">
                         <Barras />
                     </div>
-                    
                 </div>
             </div>
         </div>

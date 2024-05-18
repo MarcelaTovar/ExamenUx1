@@ -37,20 +37,6 @@
   }
 }
 .background-barra {
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
-.top-bar {
-    
-}
-
-.navSearchBar {
-
-}
-
-.botones {
-    /* Alinea los botones verticalmente al centro */
-    display: flex;
-    align-items: center;
-    felx:1;
-}

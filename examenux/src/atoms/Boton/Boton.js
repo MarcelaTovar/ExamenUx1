@@ -7,7 +7,7 @@ import './Boton.css';
 const Boton = (param) =>{
     const {nombre} = param;
     return(
-        <button class="btn btn-primary btn2" type="submit">{nombre}</button>
+        <button class="btn btn-primary btn2" type="submit"><strong>{nombre}</strong></button>
     );
 }
 
