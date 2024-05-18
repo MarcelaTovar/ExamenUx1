@@ -36,6 +36,21 @@
     transform: rotate(360deg);
   }
 }
-.background-barra{
-  background-color: rgb(255, 255, 255);
+.background-barra {
+    background-color: rgb(255, 255, 255);
+}
+
+.top-bar {
+    
+}
+
+.navSearchBar {
+
+}
+
+.botones {
+    /* Alinea los botones verticalmente al centro */
+    display: flex;
+    align-items: center;
+    felx:1;
 }

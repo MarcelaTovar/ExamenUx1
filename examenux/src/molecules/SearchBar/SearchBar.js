@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './SearchBar.css';
-
+import BarraBotones from '../../molecules/BarraBotones/BarraBotones';
 
 
 
@@ -42,6 +42,11 @@ const SearchBar = () => {
                     <Image src="https://as2.ftcdn.net/v2/jpg/03/41/82/11/1000_F_341821142_nequVUxpwzj5riEeiCA9jDmsY4OqqDLT.jpg" roundedCircle className="img-fluid selfie" />
                 </Col>
             </div>
+
+          
+                <BarraBotones />
+      
+
 
         </div>
     );

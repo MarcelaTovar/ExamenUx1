@@ -1,2 +1,13 @@
+.no-padding2 {
+    padding: 0 !important;
+    margin: 0; /* Asegura que no haya margen si es necesario */
+    width: 90%; /* Asegura que tome el ancho completo */
+    max-width: 100%; /* Asegura que tome el ancho máximo */
+  }
 
-  
+  .no-padding1 {
+    padding-left: 0 !important;
+    margin: 0; /* Asegura que no haya margen si es necesario */
+    width: 40%; /* Asegura que tome el ancho completo */
+    max-width: 40%; /* Asegura que tome el ancho máximo */
+  }

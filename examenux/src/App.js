@@ -6,11 +6,15 @@ import BarraBotones from './molecules/BarraBotones/BarraBotones';
 function App() {
   return (
     <div className="App">
-      <div class="background-barra">
-        <Barras></Barras>
-        <BarraBotones></BarraBotones>
-      </div>
-    </div>
+            <div className="background-barra">
+                <div className="top-bar">
+                    <div className="navSearchBar">
+                        <Barras />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
   );
 }
 
