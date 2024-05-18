@@ -13,3 +13,10 @@
     margin-right: 10px; 
     min-width: 100px; 
 }
+
+  
+  .scrollable-container .btn {
+    white-space: nowrap; 
+    margin-right: 5px; 
+  }
+  

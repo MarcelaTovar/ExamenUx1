@@ -5,9 +5,21 @@
     max-width: 100%; /* Asegura que tome el ancho máximo */
   }
 
-  .no-padding1 {
-    padding-left: 0 !important;
-    margin: 0; /* Asegura que no haya margen si es necesario */
-    width: 40%; /* Asegura que tome el ancho completo */
-    max-width: 40%; /* Asegura que tome el ancho máximo */
+  .main-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
+  
+  .barras-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width: 767px) {
+    .barras-container {
+      flex-direction: column; /* Cambia a columnas en pantallas pequeñas */
+    }
+  }
+  

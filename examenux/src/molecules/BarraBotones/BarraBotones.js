@@ -6,7 +6,7 @@ import './BarraBotones.css';
 
 const BarraBotones = () =>{
     return(
-    <div class="scrollable-container">
+    <div class="scrollable-container d-flex flex-nowrap overflow-auto">
         <Boton nombre="Todos"></Boton>
         <Boton nombre="Música"></Boton>
         <Boton nombre="Mixes"></Boton>
