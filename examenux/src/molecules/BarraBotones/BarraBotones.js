@@ -7,8 +7,6 @@ import './BarraBotones.css';
 const BarraBotones = () => {
     return (
 
-
-
         <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 
             <div class="col">

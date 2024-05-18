@@ -143,7 +143,7 @@ const Barra = () => {
                             <li class="nav-item">
                                 <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline button-text">
                                     {/**Esta es la clase de los iconos */}
-                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_mRqEMEC65LgbC9gBrpFu1tw7XTDJlhdc5JFTFTfZPkYlc=s900-c-k-c0x00ffffff-no-rj" titulo="Alex Meyers en Español" />
+                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_mRqEMEC65LgbC9gBrpFu1tw7XTDJlhdc5JFTFTfZPkYlc=s900-c-k-c0x00ffffff-no-rj" titulo="Alex Meyers " />
                                 </button>
                             </li>
 

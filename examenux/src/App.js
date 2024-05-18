@@ -1,6 +1,6 @@
 import './App.css';
-import './organismos/Barras/Barras'
-import Barras from './organismos/Barras/Barras';
+import './templates/Barras/Barras'
+import Barras from './templates/Barras/Barras';
 
 
 function App() {

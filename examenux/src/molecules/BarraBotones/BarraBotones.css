@@ -29,5 +29,7 @@
     background-color: black; 
     border-radius: 4px; 
   }
-
+.col{
+  padding:0px;
+}
 

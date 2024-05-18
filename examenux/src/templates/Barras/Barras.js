@@ -1,5 +1,5 @@
 import Barra from '../../molecules/Barra/Barra';
-import SearchBar from '../../molecules/SearchBar/SearchBar';
+import SearchBar from '../../organismos/SearchBar/SearchBar';
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
