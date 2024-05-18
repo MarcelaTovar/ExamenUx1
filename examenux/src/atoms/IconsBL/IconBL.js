@@ -17,11 +17,19 @@ const IconBL = ({ link, titulo }) => {
         height: 'auto',
     };
 
+    const estiloProbable3 = {
+        maxWidth: '30px',
+        height: 'auto',
+    };
+
     let estilo = null;
 
     if (titulo === "") {
         estilo = estiloProbable2;
-    } else {
+    } else if(titulo ===" "){
+        estilo = estiloProbable3;
+    }
+    else {
         estilo = estiloProbable;
     }
 

@@ -17,9 +17,6 @@
     flex-direction: row;
   }
 
-  @media (max-width: 767px) {
-    .barras-container {
-      flex-direction: column; /* Cambia a columnas en pantallas pequeñas */
-    }
-  }
+  
+  
   

@@ -1,12 +1,12 @@
-.scrollable-container {
+.cs {
     display: flex; 
-    overflow-x: auto; 
+    overflow-x: scroll; 
     white-space: nowrap; 
     padding: 10px; 
     background-color: black;
 }
 
-.element {
+.cs {
     flex: 0 0 auto; 
     padding: 10px; 
     background-color: #f0f0f0; 
@@ -29,3 +29,5 @@
     background-color: black; 
     border-radius: 4px; 
   }
+
+

@@ -11,13 +11,13 @@ import Container from 'react-bootstrap/esm/Container';
 //Aqui organizaremos las barras
 const Barras = () => {
   return (
-    <div className="main-container">
+    <div className="main-container ">
       <Container fluid>
-        <Row className="barras-container">
+        <Row className="barras-container ">
           <Col xs="1" sm="1" md="2" className="no-padding">
             <Barra />
           </Col>
-          <Col xs="2" sm="5" md="10" className="no-padding">
+          <Col xs="2" sm="5" md="10" className="no-padding d-none d-md-block">
             <SearchBar />
           </Col>
         </Row>
