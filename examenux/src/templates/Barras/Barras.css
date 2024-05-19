@@ -1,22 +1,21 @@
 .no-padding2 {
-    padding: 0;/*Aqui iba un important*/
-    margin: 0; /* Asegura que no haya margen si es necesario */
-    width: 90%; /* Asegura que tome el ancho completo */
-    max-width: 100%; /* Asegura que tome el ancho máximo */
-  }
+  padding: 0 !important;
+  margin: 0;
+  /* Asegura que no haya margen si es necesario */
+  width: 90%;
+  /* Asegura que tome el ancho completo */
+  max-width: 100%;
+  /* Asegura que tome el ancho máximo */
+}
 
-  .main-container {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .barras-container {
-    display: flex;
-    flex-direction: row;
-  }
+.main-container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 
-  
-  
-  
+.barras-container {
+  display: flex;
+  flex-direction: row;
+}

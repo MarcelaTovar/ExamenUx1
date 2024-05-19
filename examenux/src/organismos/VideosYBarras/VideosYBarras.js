@@ -6,6 +6,7 @@ import Shorts from '../../atoms/Shorts/Shorts';
 import ShortsCompilation from '../../molecules/ShortsCompilation/ShortsCompilation';
 import Video from '../../atoms/Video/Video';
 import VideosCopilation from '../../molecules/VideosCopilation/VideosCopilation';
+import './VideosYBarras.css'
 
 
 const VideosYBarras = () => {

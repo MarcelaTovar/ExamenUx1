@@ -1,28 +1,28 @@
-
 .container-fluid {
-    display:inline-flex;
+    display: inline-flex;
     justify-content: flex-start;
     text-align: left;
 }
 
-p{
+p {
     font-size: 15px;
     color: white;
-    margin:10px;
+    margin: 10px;
 }
+
 .container-fluid {
     display: flex;
     justify-content: flex-start;
 }
 
 .sidebar {
-    width: 260px; 
+    width: 260px;
     min-height: 100vh;
-    background-color:black;
+    background-color: black;
 }
 
 .nav-item {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .nav-item .btn-link {
@@ -31,7 +31,7 @@ p{
     padding: 0;
     display: flex;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     margin-top: 6%;
 }
 
@@ -50,27 +50,27 @@ p{
     color: white;
     font-size: 15px;
     text-align: left;
-    margin: 0; 
+    margin: 0;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 
 hr.custom-hr {
-    border-top: 1px solid rgb(255, 255, 255); 
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
-.bgContainer{
+.bgContainer {
     background-color: black;
 }
 
-.ContainerSecundario{
+.ContainerSecundario {
     background-color: black;
 }
-.botonSideBar{
+
+.botonSideBar {
     display: flex;
 }
-.iconoBarra{
+
+.iconoBarra {
     background-color: rgb(255, 255, 255);
 }
-
-

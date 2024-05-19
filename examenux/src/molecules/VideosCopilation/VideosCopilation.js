@@ -8,57 +8,15 @@ function VideosCopilation() {
       <Video
         videoId='0CutVc9WRc4'
         title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
+        pfpChannel='https://yt3.googleusercontent.com/ytc/AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE=s176-c-k-c0x00ffffff-no-rj'
         channelName='CS Ghost Animation'
         visualization='4.8 M de vistas  hace 1 año' />
       <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
-      <Video
-        videoId='0CutVc9WRc4'
-        title='Why we hate engineers'
-        pfpChannel='AIdro_meAyneSTdgvlpOKHzcMbdzdWgxAxP1ddecBVcBYFcv8nE'
-        channelName='CS Ghost Animation'
-        visualization='4.8 M de vistas  hace 1 año' />
+        videoId='IdneKLhsWOQ'
+        title='Taylor Swift - Wildest Dreamss'
+        pfpChannel='https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj'
+        channelName='Taylor Swift'
+        visualization='928,090,167 vistas  30 ago 2015' />
     </div>
   );
 }
