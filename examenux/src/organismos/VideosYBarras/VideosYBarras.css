@@ -5,4 +5,10 @@
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
-}*/ 
+}*/
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding: 1%;
+}
