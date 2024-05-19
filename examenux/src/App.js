@@ -9,7 +9,6 @@ function App() {
                 <div className="top-bar">
                     <div className="navSearchBar">
                         <Barras />
-                       
                     </div>
                 </div>
             </div>
