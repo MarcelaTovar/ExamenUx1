@@ -13,7 +13,7 @@ const IconBL = ({ link, titulo }) => {
     };
 
     const estiloProbable2 = {
-        maxWidth: '60px',
+        maxWidth: '140px',
         height: 'auto',
     };
 

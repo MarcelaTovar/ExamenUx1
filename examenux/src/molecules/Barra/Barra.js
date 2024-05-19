@@ -32,7 +32,7 @@ const Barra = () => {
                                     <IconBL class="iconoBarra" link="https://icons.veryicon.com/png/o/miscellaneous/big-data-regular-monochrome-icon/sidebar-4.png" titulo=" " />
                                 
                                 </button>
-                                <IconBL link="https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500" titulo="" />
+                                <IconBL link="https://cdn.gtricks.com/2021/04/how-to-enable-youtube-dark-mode-on-pc-and-android-ios-1280x720.jpg" titulo="" />
                                 </div>
                             </li>
 

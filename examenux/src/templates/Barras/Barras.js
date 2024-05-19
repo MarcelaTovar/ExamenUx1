@@ -1,11 +1,13 @@
 import Barra from '../../molecules/Barra/Barra';
-import SearchBar from '../../organismos/SearchBar/SearchBar';
+
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Barras.css'
 import Container from 'react-bootstrap/esm/Container';
+import VideosYBarras from '../../organismos/VideosYBarras/VideosYBarras';
+
 
 
 //Aqui organizaremos las barras
@@ -18,7 +20,7 @@ const Barras = () => {
             <Barra />
           </Col>
           <Col xs="2" sm="5" md="10" className="no-padding d-none d-md-block">
-            <SearchBar />
+            <VideosYBarras />
           </Col>
         </Row>
       </Container>

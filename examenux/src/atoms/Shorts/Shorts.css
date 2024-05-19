@@ -1,0 +1,35 @@
+.bg{
+    background-color: black;
+    max-width: 100px;
+    
+}
+.im{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    border-radius: 10px;
+    min-height: 160px;
+}
+.card-body{
+    text-align: left;
+    padding-left: 0%;
+}
+.card-text{
+    font-size: 10px;
+    color: grey;
+    margin-right: 0%;
+    margin-right: 0rem; 
+    margin-top: 0%;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.card-title{
+    font-size: 10px;
+    color: white;
+    margin-right: 0%;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

@@ -1,7 +1,6 @@
 import './App.css';
-import './templates/Barras/Barras'
 import Barras from './templates/Barras/Barras';
-
+import Shorts from './atoms/Shorts/Shorts';
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
                 <div className="top-bar">
                     <div className="navSearchBar">
                         <Barras />
+                       
                     </div>
                 </div>
             </div>
