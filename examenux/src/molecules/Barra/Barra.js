@@ -10,13 +10,13 @@ const Barra = () => {
          * Dentro de cada span es donde inlcuimos los iconos
          * Creamos una lista ul, cada elemento dentro de la lista es un il
          */
-        <div class="container-fluid">
-            <div class="row flex-nowrap">
+        <div class="container-fluid ">
+            <div class="row flex-nowrap ContainerSecundario ">
 
                 {/**Aqui ajustamos el tamaño de la nav bar */}
                 <div class="col-auto col-md-1.5 col-lg-1.5 min-vh-100 d-flex flex-column align-items-start sidebar">
 
-                    <div class="bg-dark p-2">
+                    <div class="bgContainer p-2">
 
 
                         {/**Cada uno de estos es un elemento de la barra */}
@@ -24,10 +24,16 @@ const Barra = () => {
                         <ul class="nav nav-pills flex-column mt-4">
 
                             <li class="nav-item">
+                            <div class="botonSideBar">
                                 <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline button-text">
                                     {/**Esta es la clase de los iconos */}
-                                    <IconBL link="https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500" titulo="" />
+                                    
+                                    
+                                    <IconBL class="iconoBarra" link="https://icons.veryicon.com/png/o/miscellaneous/big-data-regular-monochrome-icon/sidebar-4.png" titulo=" " />
+                                
                                 </button>
+                                <IconBL link="https://cdn.gtricks.com/2021/04/how-to-enable-youtube-dark-mode-on-pc-and-android-ios-1280x720.jpg" titulo="" />
+                                </div>
                             </li>
 
                             <li class="nav-item">
@@ -137,7 +143,7 @@ const Barra = () => {
                             <li class="nav-item">
                                 <button type="button" className="btn btn-link nav-link text-white fs-4 me-1 d-none d-sm-inline button-text">
                                     {/**Esta es la clase de los iconos */}
-                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_mRqEMEC65LgbC9gBrpFu1tw7XTDJlhdc5JFTFTfZPkYlc=s900-c-k-c0x00ffffff-no-rj" titulo="Alex Meyers en Español" />
+                                    <IconBL link="https://yt3.googleusercontent.com/ytc/AIdro_mRqEMEC65LgbC9gBrpFu1tw7XTDJlhdc5JFTFTfZPkYlc=s900-c-k-c0x00ffffff-no-rj" titulo="Alex Meyers " />
                                 </button>
                             </li>
 

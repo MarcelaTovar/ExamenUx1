@@ -1,5 +1,6 @@
 .btn-outline-secondary {
-    background-color: rgb(124, 113, 113);
+    background-color: rgb(72, 70, 70);
+    border-color: rgb(72, 70, 70);
     border-left: none;
     margin-top: 11px;
     margin-right: 20px;
@@ -23,6 +24,8 @@
     margin-top: 10px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-left: 20%;
+    border-color: rgb(97, 97, 97);
 }
 
 .custom-placeholder::placeholder {
@@ -31,7 +34,7 @@
 .microfono{
     max-width: 40px;
     max-height: auto;
-    margin-top: 10px;
+    margin-top: 10%;
     margin-right: 20px;
     background-color: grey;
 }
@@ -57,3 +60,39 @@
     margin-right: 20px;
     background-color: rgb(0, 0, 0);
 }
+.barraBtn{
+    display:block;
+}
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+    background-color: black;
+}
+.scrolling-wrapper::-webkit-scrollbar{
+    background-color: black;
+}
+
+body{
+	background-color: black;
+	color: black;
+	font-family: 'system-ui';
+}
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+
+.card-block{
+	height: 300px;
+	background-color: black;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+	
+}
+
+

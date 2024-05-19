@@ -16,9 +16,9 @@ p{
 }
 
 .sidebar {
-    width: 200px; 
+    width: 260px; 
     min-height: 100vh;
-    background-color:rgb(35, 32, 32);
+    background-color:black;
 }
 
 .nav-item {
@@ -32,6 +32,7 @@ p{
     display: flex;
     align-items: center;
     width: 100%; 
+    margin-top: 6%;
 }
 
 .nav-item .btn-link:hover {
@@ -58,5 +59,18 @@ hr.custom-hr {
     border-top: 1px solid rgb(255, 255, 255); 
 }
 
+.bgContainer{
+    background-color: black;
+}
+
+.ContainerSecundario{
+    background-color: black;
+}
+.botonSideBar{
+    display: flex;
+}
+.iconoBarra{
+    background-color: rgb(255, 255, 255);
+}
 
 

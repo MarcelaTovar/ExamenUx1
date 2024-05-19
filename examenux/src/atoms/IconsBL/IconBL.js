@@ -13,7 +13,12 @@ const IconBL = ({ link, titulo }) => {
     };
 
     const estiloProbable2 = {
-        maxWidth: '60px',
+        maxWidth: '140px',
+        height: 'auto',
+    };
+
+    const estiloProbable3 = {
+        maxWidth: '30px',
         height: 'auto',
     };
 
@@ -21,7 +26,10 @@ const IconBL = ({ link, titulo }) => {
 
     if (titulo === "") {
         estilo = estiloProbable2;
-    } else {
+    } else if(titulo ===" "){
+        estilo = estiloProbable3;
+    }
+    else {
         estilo = estiloProbable;
     }
 

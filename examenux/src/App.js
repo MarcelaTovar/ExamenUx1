@@ -1,15 +1,19 @@
 import './App.css';
-import './organismos/Barras/Barras'
-import Barras from './organismos/Barras/Barras';
+import Barras from './templates/Barras/Barras';
+import Shorts from './atoms/Shorts/Shorts';
 
 function App() {
   return (
     <div className="App">
-      <div class="background-barra">
-        <Barras></Barras>
-      </div>
-
-    </div>
+            <div className="background-barra">
+                <div className="top-bar">
+                    <div className="navSearchBar">
+                        <Barras />
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
   );
 }
 

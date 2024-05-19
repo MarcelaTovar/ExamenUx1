@@ -1,0 +1,8 @@
+.shorts-compilation {
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    gap: 20px; 
+    padding: 10px; 
+    justify-content: flex-start; 
+}
