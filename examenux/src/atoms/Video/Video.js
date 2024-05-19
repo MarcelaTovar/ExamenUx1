@@ -16,7 +16,7 @@ function Video({ videoId, title, channelName, visualization, pfpChannel }) {
       <Col>
         <div className="video-body">
           <Row>
-            <Col xs="3" sm="3" md="3">
+            <Col xs="3" sm="3" md="3" className="d-flex align-items-center justify-content-center">
               <div className="video-logo">
                 <img className='video-logo-imagen' src={pfpChannel} alt="Channel profile" />
               </div>
