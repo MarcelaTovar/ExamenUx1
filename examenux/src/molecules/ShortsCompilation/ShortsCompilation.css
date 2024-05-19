@@ -1,6 +1,7 @@
 .shorts-compilation {
-    display: flex; 
+    display: flex;
     flex-wrap: nowrap; 
+    flex:1 1;
     overflow-x: auto; 
     gap: 20px; 
     padding: 10px; 

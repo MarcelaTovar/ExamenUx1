@@ -7,58 +7,58 @@ import './BarraBotones.css';
 const BarraBotones = () => {
     return (
 
-        <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+        <div className="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 
-            <div class="col">
-                <Boton nombre="Todos" class="coco"></Boton>
+            <div className="col">
+                <Boton nombre="Todos" className="coco"></Boton>
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Música"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Mixes"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Gorillaz"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Ahorros"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Videojuegos"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Ahorros"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Indie Rock"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Pop Rock"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Música japonésa"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Hip Hop alternativo"></Boton>
 
             </div>
-            <div class="col">
+            <div className="col">
                 <Boton nombre="Manga"></Boton>
 
             </div>
-            <div class="col"><Boton nombre="Trailer"></Boton></div>
+            <div className="col"><Boton nombre="Trailer"></Boton></div>
 
-            <div class="col"> <Boton nombre="Star Wars"></Boton>
+            <div className="col"> <Boton nombre="Star Wars"></Boton>
             </div>
         </div>
 
