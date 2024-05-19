@@ -65,7 +65,7 @@ const SearchBar = () => {
 
                 </div>
 
-                <div class="container">
+                <div className="container">
                     <BarraBotones/>
                 </div>
 
