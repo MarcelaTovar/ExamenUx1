@@ -23,6 +23,7 @@ p {
 
 .nav-item {
     margin-bottom: 0;
+    width: 100%;
 }
 
 .nav-item .btn-link {
