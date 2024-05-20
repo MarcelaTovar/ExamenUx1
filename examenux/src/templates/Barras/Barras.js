@@ -1,5 +1,4 @@
 import Barra from '../../molecules/Barra/Barra';
-
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,7 +18,7 @@ const Barras = () => {
           <Col xs="1" sm="1" md="2" className="no-padding">
             <Barra />
           </Col>
-          <Col xs="2" sm="5" md="10" className="no-padding d-none d-md-block">
+          <Col xs="2" sm="5" md="10" className="no-padding ">
             <VideosYBarras />
           </Col>
         </Row>
