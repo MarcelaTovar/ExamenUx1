@@ -1,5 +1,6 @@
 .video-container {
-    width: 28%;
+    width: 23%;
+    min-width: 200px;
     margin: 0;
     padding: 0;
 }
