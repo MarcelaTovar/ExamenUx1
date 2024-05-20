@@ -5,41 +5,41 @@ import './VideosCopilation.css'
 function VideosCopilation({ tipo }) {
   const continuarViendo = [
     {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: 'igIfiqqVHtA',
+      title: "Taylor Swift - Enchanted (Taylor's Version) (Lyric Video)",
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '44 M de vistas  hace 10 meses  '
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: 'q3zqJs7JUCQ',
+      title: 'Taylor Swift - Fortnight (feat. Post Malone) (Official Music Video)',
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '64,055,922 vistas  hace 4 semanas '
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: 'osmzwWw4RYM',
+      title: 'Taylor Swift - Timeless (Taylor’s Version) (From The Vault) (Lyric Video)',
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '7 M de vistas  hace 10 meses '
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: 'tMhiHrL7rPE',
+      title: "Taylor Swift - Hey Stephen (Taylor's Version) (Lyric Video)",
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '8.4 M de vistas  hace 3 años'
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: 'KZeI9I875Ig',
+      title: "Taylor Swift - The Best Day (Taylor's Version) (Lyric Video)",
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '7.4 M de vistas  hace 3 años '
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
+      videoId: '9bdLTPNrlEg',
+      title: 'Taylor Swift – this is me trying (Official Lyric Video)',
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      visualization: '21 M de vistas  hace 3 años'
     }
   ]
   const recomendados = [
@@ -68,58 +68,58 @@ function VideosCopilation({ tipo }) {
       channelName: 'Macakiux',
       visualization: '291 k vistas  hace 3 meses'
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: '19bfvxm2i5s',
+      title: 'Cronología de Galaxia Wander (La leyenda de planta rodadora) Wander Over Yonder - Lalito Rams',
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_mJqMOWcHmOrd1oZtP2801pYuMJjHnXfr89kbvPaFm9-IA=s160-c-k-c0x00ffffff-no-rj',
+      channelName: 'LALITO RAMS',
+      visualization: '87 K visualizaciones  hace 4 días'
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: 'CAb_bCtKuXg',
+      title: 'La vida es divertida - Ft. Boyinaband (Video Musical Oficial)',
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_mxpQ2hfudhflswgM8pZg22Jn_bgaQV0gIpUqYQW4z9Av8=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'TheOdd1sOut',
+      visualization: '171 M de vistas  hace 5 años'
     },
   ]
 
   const miMix = [
     {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015',
+      videoId: 'jNUTxvki_d0',
+      title: "Hell's Greatest Dad Sing-Along | Hazbin Hotel | Prime Video",
+      pfpChannel: 'https://yt3.googleusercontent.com/ady-sFHVvjfJS0i8v2pF-LOwNmqv3e4hDSiIcOyI1jDCwl84isyNlQ8rl-yxm7_l1jSxPS_Epk0=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Prime Video',
+      visualization: '47 M de vistas  hace 3 meses',
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: '9sVoglgJjRg',
+      title: "Loser, Baby Sing-Along | Hazbin Hotel | Prime Video",
+      pfpChannel: 'https://yt3.googleusercontent.com/ady-sFHVvjfJS0i8v2pF-LOwNmqv3e4hDSiIcOyI1jDCwl84isyNlQ8rl-yxm7_l1jSxPS_Epk0=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Prime Video',
+      visualization: '33 M de vistas  hace 4 meses',
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: 'Ai4eh_OCxvw',
+      title: "Stayed Gone Music Video | Hazbin Hotel",
+      pfpChannel: 'https://yt3.googleusercontent.com/kRPSP7pwm2W6GKGzHx7T00AkPNJEdxpT1s6dzVgz5AgWywKfNnmFjg4J7IYJLRm-Jz2ggK_T7g=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Supaslasher',
+      visualization: '10 M de vistas  hace 3 meses',
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: 'FKF0runSnzM',
+      title: "The Ultimate Hazbin Hotel Sing Along | Hazbin Hotel | Prime Video",
+      pfpChannel: 'https://yt3.googleusercontent.com/ady-sFHVvjfJS0i8v2pF-LOwNmqv3e4hDSiIcOyI1jDCwl84isyNlQ8rl-yxm7_l1jSxPS_Epk0=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Prime Video',
+      visualization: '2.2 M de vistas  hace 1 mes ',
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
+      videoId: 'juJkNKodgdE',
+      title: "INSANE (A Hazbin Hotel Song) - Black Gryph0n & Baasik",
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_mVEjxZ9LYmm9MXgQuHvhOLzNUNxARW3FMWm57r16BP3XTn=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Black Gryph0n',
+      visualization: '74 M de vistas  hace 2 años ',
     }, {
-      videoId: 'IdneKLhsWOQ',
-      title: 'Taylor Swift - Wildest Dreamss',
-      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
-      channelName: 'Taylor Swift',
-      visualization: '928,090,167 vistas  30 ago 2015'
-    },
+      videoId: 'DTbfw8_SMmI',
+      title: "The Living Tombstone - Alastor's Game (Hazbin Hotel Song)",
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_nenUrGjDKt9CONHX-RAJoULoOAEL0QWTiXSVcvMk9MRMw=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'The Living Tombstone',
+      visualization: '57 M de vistas  hace 3 años',
+    }
 
   ]
 
