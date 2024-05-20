@@ -40,6 +40,19 @@ function VideosCopilation({ tipo }) {
       pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
       channelName: 'Taylor Swift',
       visualization: '21 M de vistas  hace 3 años'
+    },
+    {
+      videoId: 'osdoLjUNFnA',
+      title: 'Taylor Swift – exile (feat. Bon Iver) (Official Lyric Video)',
+      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Taylor Swift',
+      visualization: '106 M de vistas  hace 3 años'
+    }, {
+      videoId: 'lvHZjvIyqsk',
+      title: 'Taylor Swift - Maroon (Official Lyric Video)',
+      pfpChannel: 'https://yt3.googleusercontent.com/wp-YrJ2bHsq4jKC1CLqzMRmaUhb8Iuk1V1REPTBUwxhchHpPrHCIO27bhQrzFzusHLRarepJQg=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Taylor Swift',
+      visualization: '29 M de vistas  hace 1 año '
     }
   ]
   const recomendados = [
@@ -108,6 +121,19 @@ function VideosCopilation({ tipo }) {
       channelName: 'Prime Video',
       visualization: '2.2 M de vistas  hace 1 mes ',
     }, {
+      videoId: 'juJkNKodgdE',
+      title: "INSANE (A Hazbin Hotel Song) - Black Gryph0n & Baasik",
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_mVEjxZ9LYmm9MXgQuHvhOLzNUNxARW3FMWm57r16BP3XTn=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'Black Gryph0n',
+      visualization: '74 M de vistas  hace 2 años ',
+    }, {
+      videoId: 'DTbfw8_SMmI',
+      title: "The Living Tombstone - Alastor's Game (Hazbin Hotel Song)",
+      pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_nenUrGjDKt9CONHX-RAJoULoOAEL0QWTiXSVcvMk9MRMw=s176-c-k-c0x00ffffff-no-rj',
+      channelName: 'The Living Tombstone',
+      visualization: '57 M de vistas  hace 3 años',
+    },
+    {
       videoId: 'juJkNKodgdE',
       title: "INSANE (A Hazbin Hotel Song) - Black Gryph0n & Baasik",
       pfpChannel: 'https://yt3.googleusercontent.com/ytc/AIdro_mVEjxZ9LYmm9MXgQuHvhOLzNUNxARW3FMWm57r16BP3XTn=s176-c-k-c0x00ffffff-no-rj',
