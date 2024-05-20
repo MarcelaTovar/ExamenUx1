@@ -4,13 +4,14 @@ import YouTubeThumbnail from "../YouTubeThumbnail/YoutubeThumbnail";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-function Video({ videoId, title, channelName, visualization, pfpChannel }) {
+function Video({ videoId, title, channelName, visualization, pfpChannel, link }) {
   return (
     <div className="video-container">
       <Col className="flex-row flex-nowrap">
         <div className="video-thumbnail">
           <YouTubeThumbnail
-            videoId={videoId} />
+            videoId={videoId}
+            link={link} />
         </div>
       </Col>
       <Col>
